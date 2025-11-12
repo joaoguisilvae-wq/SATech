@@ -69,3 +69,29 @@ a {
 /* Primeira pagina */
 
 /* Sobre nós */
+
+#strong-points-container {
+  background-color: #402562;
+}
+
+/* Suporte */
+
+#suporte {
+  background-color: #b8b8b8;
+}
+
+#suporte ul {
+  margin: 15px;
+}
+
+#suporte ul li {
+  background-color: #fff;
+  margin: 10px 5px;
+  padding: 10px;
+}
+
+/* Ajuda */
+
+#ajuda-container {
+  background-color: #402562;
+}
