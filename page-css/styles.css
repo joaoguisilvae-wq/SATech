@@ -1,0 +1,165 @@
+/* Estilos gerais */
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  background-color: #402562;
+}
+
+.background-image {
+  height: 100dvh;
+  width: 100%;
+  display: flex;
+}
+
+/* information-container */
+#information-container {
+  width: 50%;
+  display: flex;
+}
+
+#logo-container {
+  display: block;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.logo-satech,
+#logo-container h3 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.logo-satech img {
+  height: 60px;
+  width: 60px;
+}
+
+#logo-container h3 {
+  font-size: 2.5rem;
+}
+
+#title-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+#title-container h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #000;
+}
+
+/* form */
+#content-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#main-container {
+  flex: 1;
+  max-width: 390px;
+  max-height: 580px;
+  opacity: 1;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#main-container #form-title {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#main-container label {
+  margin: 10px;
+}
+
+#main-container input {
+  display: flex;
+  flex: 1;
+  width: 329px;
+  height: 45px;
+  border: 0.2px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 8px auto 15px;
+}
+
+#main-container span {
+  color: #402562;
+}
+
+#submit-btn {
+  display: flex;
+  width: 329px;
+  height: 45px;
+  margin: 100px auto 8px;
+  border: 0.2px solid #ccc;
+  color: #fff;
+  background-color: #402562;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  opacity: 0.9;
+  transition: 0.5s;
+}
+
+#submit-btn:hover {
+  opacity: 1;
+}
+
+#main-container a {
+  text-align: center;
+  color: #402562;
+}
+
+/* Media Query */
+@media (max-width: 780px) {
+  #information-container {
+    display: none;
+  }
+
+  #content-container {
+    height: 100dvh;
+  }
+
+  #main-container {
+    height: 480px;
+  }
+
+  #submit-btn {
+    margin: 18px auto 8px;
+  }
+}
+
+@media (max-width: 440px) {
+  #main-container {
+    max-width: 280px;
+  }
+
+  #main-container input {
+    width: 238px;
+  }
+
+  #submit-btn {
+    width: 238px;
+  }
+}
