@@ -11,8 +11,6 @@ html {
 
 body {
   margin: 0 auto;
-  height: 100dvh;
-  box-sizing: border-box;
 }
 
 a {
@@ -29,7 +27,6 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100dvh;
   width: 100%;
 }
 
@@ -73,8 +70,27 @@ a {
 }
 
 /* Primeira pagina */
+#tela-inicial {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#men-img {
+  width: 555px;
+}
+
+#men-img img {
+  max-width: 100%;
+  height: auto;
+}
 
 /* Sobre nós */
+
+#sobre-nos {
+  display: flex;
+}
 
 #strong-points-container {
   background-color: #402562;
@@ -84,20 +100,63 @@ a {
 
 #suporte {
   background-color: #b8b8b8;
+  padding: 30px 15px;
 }
 
 #suporte ul {
   margin: 15px;
+  list-style: none;
 }
 
 #suporte ul li {
   background-color: #fff;
   margin: 10px 5px;
   padding: 10px;
+  border-radius: 20px;
 }
 
 /* Ajuda */
+#ajuda {
+  background-color: #fff;
+  padding: 10px 50px;
+}
 
 #ajuda-container {
   background-color: #402562;
+  border-radius: 20px;
+}
+
+.ansewer-container {
+  background-color: #fff;
+}
+
+#ajuda-container ol {
+  list-style: none;
+}
+
+#ajuda-container li {
+  margin: 20px;
+}
+
+/*  */
+.count-image {
+  display: flex;
+}
+
+.count-image #background-image {
+  width: 20px;
+}
+/* tava tentando fazer o quadrado com a imagem por tras */
+
+/* Contato */
+.contacts-container {
+  background-color: #fff;
+  margin: 10px;
+}
+
+/* footer */
+footer {
+  background-color: #d7d7d7;
+  text-align: center;
+  height: 100px;
 }
