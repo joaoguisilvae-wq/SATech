@@ -20,23 +20,25 @@
         <header>
           <div id="navbar-container">
             <nav id="navbar">
-              <div id="logo-container">
-                <figure class="logo-satech">
-                  <img src="img/logo SaTech.png" alt="Logo" />
-                </figure>
-                <h3>SaTech</h3>
-              </div>
               <ul class="navbar-list">
+                <li id="logo-container">
+                  <figure class="logo-satech">
+                    <img src="img/logo SaTech.png" alt="Logo" />
+                  </figure>
+                  <h3>SaTech</h3>
+                </li>
                 <li class="nav-link"><a href="#sobre-nos">Sobre nós</a></li>
                 <li class="nav-link"><a href="#suporte">Suporte</a></li>
                 <li class="nav-link"><a href="#ajuda">Ajuda</a></li>
                 <li class="nav-link"><a href="#contato">Contato</a></li>
                 <li id="member-btn" class="nav-link">
-                  <a href="#">Torne-se Membro</a>
+                  <a href="sing-in-page/sing-in.html">Torne-se Membro</a>
                 </li>
                 <li>
                   <figure id="nav-img">
-                    <img src="img/ei_exclamation.png" alt="ei_exclamation" />
+                    <a href="sugestion-page/sugestion.html"
+                      ><img src="img/ei_exclamation.png" alt="ei_exclamation"
+                    /></a>
                   </figure>
                 </li>
               </ul>
@@ -46,7 +48,7 @@
         <!-- Tela inicial -->
         <section id="tela-inicial">
           <div id="h1-container">
-            <h1>O suporte que <span>você precisa</span></h1>
+            <h1>O suporte que <br /><span>você precisa</span></h1>
             <p>Auxiliando você desde outubro de 2025</p>
           </div>
           <div id="men-img">
@@ -136,16 +138,18 @@
       <!-- Ajuda -->
       <section id="ajuda">
         <div id="ajuda-container">
-          <h2>Ajuda</h2>
-          <p>Duvidas frequêntes</p>
+          <div id="help-title">
+            <h2>Ajuda</h2>
+            <p>Duvidas frequêntes</p>
+          </div>
           <ol>
             <li>
               <div class="ansewer-container">
-                .
                 <h3>
                   <span class="count-image background-image">1</span>
                   Como me tornar membro?
                 </h3>
+                <div class="divisao"></div>
                 <p>
                   No topo do site, no canto superior direito, tem um botão
                   escrito ‘Torne-se Membro’. Ao clicar, você será direcionado a
@@ -157,14 +161,11 @@
             </li>
             <li>
               <div class="ansewer-container">
-                <div class="count-image">
-                  <h3>
-                    <div class="background-image">
-                      <span>2</span>
-                    </div>
-                    O serviço é pago?
-                  </h3>
-                </div>
+                <h3>
+                  <span class="count-image background-image">2</span>
+                  O Serviço é pago
+                </h3>
+                <div class="divisao"></div>
                 <p>
                   Não! Oferecemos um serviço 100% gratúito para ser acessível a
                   todos.
@@ -177,6 +178,7 @@
                   <span class="count-image background-image">3</span>
                   Como entrar em contato?
                 </h3>
+                <div class="divisao"></div>
                 <p>
                   No topo do site, na barra de navegação, a um botão escrito
                   ‘Contato’. Ao clicar, você será direcionado a uma página com
@@ -190,10 +192,14 @@
                   <span class="count-image background-image">4</span>
                   Vocês tem uma sede de atendimendo?
                 </h3>
+                <div class="divisao"></div>
                 <p>
                   Sim! Nosso escritório é localizado na Rua Funchal 418,
                   edifício Tower, andares 34 e 35.
-                  <a href="#">Localização no Google Maps.</a>
+                  <a
+                    href="https://www.google.com/maps/place/Edif%C3%ADcio+E-Tower/@-23.5937231,-46.6928117,17z/data=!4m7!3m6!1s0x94ce571c2d467b91:0x964aac3a4ae78dd6!8m2!3d-23.5937233!4d-46.6904901!15sCiBSdWEgRnVuY2hhbCA0MTgsIGVkaWbDrWNpbyBUb3dlcpIBE2NvbmRvbWluaXVtX2NvbXBsZXjgAQA!16s%2Fg%2F11gmgdp0kh?entry=tts&g_ep=EgoyMDI1MTEwMi4wIPu8ASoASAFQAw%3D%3D&skid=3a542eaa-7cbc-4cfc-830b-75a2d92ffd98"
+                    >Localização no Google Maps.</a
+                  >
                 </p>
               </div>
             </li>
@@ -203,6 +209,7 @@
                   <span class="count-image background-image">5</span>
                   Quais são os horários de atendimento?
                 </h3>
+                <div class="divisao"></div>
                 <p>Quais são os horários de atendimento?</p>
               </div>
             </li>
@@ -212,6 +219,7 @@
                   <span class="count-image background-image">6</span>
                   Tem como enviar sugestões a empresa?
                 </h3>
+                <div class="divisao"></div>
                 <p>
                   Sim! Caso queira fazer uma reclamação ou sugestão, basta
                   clicar no botão superior direito, indicado por ‘!’. Isso te
